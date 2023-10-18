@@ -5,7 +5,7 @@ const About = () => {
         <div name="About" className='w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white'>
             <div className='max-w-screen-lg py-4 mx-auto flex flex-col justify-center w-full h-full'>
                 <div className=''>
-                    <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
+                    <p className='text-4xl font-bold inline border-b-4 border-gray-500 mt-6'>About</p>
                 </div>
                 <p className='text-xl mt-20'>
                     3 Years of experience in software development. Analytical team player with exceptional interpersonal and communication skills. Effectively uses cutting-edge learning technology and strategies.
