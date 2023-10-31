@@ -1,6 +1,6 @@
 import React from 'react'
-import arrayDestruct from '../asset/portfolio/arrayDestruct.jpg';
-import installNode from '../asset/portfolio/installNode.jpg';
+import presentation from '../asset/portfolio/Presentation1.jpg';
+import presentation2 from '../asset/portfolio/Presentation2.jpg';
 import navBar from '../asset/portfolio/navbar.jpg';
 import reactParallax from '../asset/portfolio/reactParallax.jpg';
 import reactSmooth from '../asset/portfolio/reactSmooth.jpg';
@@ -11,27 +11,39 @@ const portfolio = () => {
     const portfolios = [
         {
             id: 1,
-            src: arrayDestruct
+            src: presentation,
+            Demo: "https://bank-lunema-app.vercel.app/",
+            Code: "https://github.com/Enterphilic/bank_lunema_app.git"
         },
         {
             id: 2,
-            src: installNode
+            src: presentation2,
+            Demo: "https://real-estate-six-azure.vercel.app/",
+            Code: "https://github.com/Enterphilic/real-landing-page-main.gitt"
         },
         {
             id: 3,
-            src: navBar
+            src: navBar,
+            Demo: "https://www.lunema-ng.com/",
+            Code: "https://github.com/Enterphilic/bank_lunema_app.git"
         },
         {
             id: 4,
-            src: reactParallax
+            src: reactParallax,
+            Demo: "https://bank-lunema-app.vercel.app/",
+            Code: "https://github.com/Enterphilic/bank_lunema_app.git"
         },
         {
             id: 5,
-            src: reactSmooth
+            src: reactSmooth,
+            Demo: "https://bank-lunema-app.vercel.app/",
+            Code: "https://github.com/Enterphilic/bank_lunema_app.git"
         },
         {
             id: 6,
-            src: reactWeather
+            src: reactWeather,
+            Demo: "https://bank-lunema-app.vercel.app/",
+            Code: "https://github.com/Enterphilic/bank_lunema_app.git"
         },
 
     ]
@@ -45,12 +57,13 @@ const portfolio = () => {
 
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-8 sm:px-0'>
                     {
-                        portfolios.map(({ id, src }) => (
+                        portfolios.map(({ id, src, Demo, Code }) => (
                             <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                                 <img src={src} alt="" className='rounded-md duration-200 hover:scale-105' />
-                                <div className='flex item-center justify-center'>
-                                    <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 ">Demo</button>
-                                    <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 ">Code</button>
+                                <div key={id} className='flex item-center justify-center'>
+                                    
+                                    <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 "> <a href= {Demo}>DEMO</a> </button>
+                                    <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 "> <a href={Code}>CODE</a></button>
                                 </div>
                             </div>
                         ))
