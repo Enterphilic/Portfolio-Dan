@@ -1,10 +1,9 @@
 import React from "react";
-import presentation from "../asset/portfolio/Presentation1.jpg";
-import presentation2 from "../asset/portfolio/Presentation2.jpg";
-import navBar from "../asset/portfolio/navbar.jpg";
+
+
+
 import reactParallax from "../asset/portfolio/reactParallax.jpg";
-import reactSmooth from "../asset/portfolio/reactSmooth.jpg";
-import reactWeather from "../asset/portfolio/reactWeather.jpg";
+
 
 const portfolio = () => {
   const portfolios = [
@@ -34,34 +33,38 @@ const portfolio = () => {
     },
     {
       id: 5,
-      src: presentation2,
-      Demo: "https://real-estate-six-azure.vercel.app/",
-      Code: "https://github.com/Enterphilic/real-landing-page-main.gitt",
+      src: "https://res.cloudinary.com/ddwazfkl9/image/upload/v1740662752/headsimg_pkpbrj.png",
+      Demo: "https://www.heads-toes.com/",
+      Code: "https://github.com/Enterphilic/fashion-commerce",
     },
-    {
-      id: 6,
-      src: navBar,
-      Demo: "https://www.lunema-ng.com/",
-      Code: "https://github.com/Enterphilic/bank_lunema_app.git",
-    },
+  
     {
       id: 7,
+      src: "https://res.cloudinary.com/ddwazfkl9/image/upload/v1740662752/lunimage_rmmfnu.png",
+      Demo: "https://www.lunned.com/",
+      Code: "https://github.com/Enterphilic/Lunn-ed",
+    },
+    {
+      id: 8,
+      src: "https://res.cloudinary.com/ddwazfkl9/image/upload/v1740662752/immaculate_hnoqty.png",
+      Demo: "https://www.immaculategoodnews.com/",
+      Code: "https://github.com/Enterphilic/emmaculate-loan",
+    },
+    {
+      id: 8,
       src: reactParallax,
       Demo: "https://bank-lunema-app.vercel.app/",
       Code: "https://github.com/Enterphilic/bank_lunema_app.git",
     },
-    {
-      id: 8,
-      src: reactSmooth,
-      Demo: "https://bank-lunema-app.vercel.app/",
-      Code: "https://github.com/Enterphilic/bank_lunema_app.git",
-    },
-    {
+
+      {
       id: 9,
-      src: reactWeather,
-      Demo: "https://bank-lunema-app.vercel.app/",
-      Code: "https://github.com/Enterphilic/bank_lunema_app.git",
+      src: "https://res.cloudinary.com/ddwazfkl9/image/upload/v1740663547/download_hkutds.png",
+      Demo: "https://real-estate-six-azure.vercel.app/",
+      Code: "https://github.com/Enterphilic/real-landing-page-main.gitt",
     },
+   
+  
   ];
   return (
     <div
