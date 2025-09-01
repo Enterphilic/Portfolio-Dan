@@ -17,7 +17,7 @@ const portfolio = () => {
      {
       id: 2,
       src: "https://res.cloudinary.com/ddwazfkl9/image/upload/v1756717974/buddy_jsnc60.png",
-      Demo: "buddy-chat-olive.vercel.app",
+      Demo: "https://buddy-chat-olive.vercel.app/",
       Code: "https://github.com/Enterphilic/buddy-chat",
     },
     {
