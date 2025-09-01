@@ -8,8 +8,15 @@ const About = () => {
                     <p className='text-4xl font-bold inline border-b-4 border-gray-500 mt-6'>About</p>
                 </div>
                 <p className='text-xl mt-20'>
-                    3 Years of experience in software development. Analytical team player with exceptional interpersonal and communication skills. Effectively uses cutting-edge learning technology and strategies.
-                    Provides maintenance and features creation using front web technologies such as HTML 5, CSS3, JavaScript and React. Worked closely with graphic designers and senior Developers in a dynamic team environment,
+                    I&#39;m an experienced Front end Software Engineer with a background in banking. with over 3
+years in large-scale application development. Proficient in React, NodeJS, TypeScript, and
+Tailwind CSS, I specialize in crafting software solutions from design to maintenance. I excel in
+JavaScript, TypeScript, React, Node.js, MongoDB, and Express, creating clean and efficient code
+that meets project requirements and quality standards. With a proactive problem-solving
+approach, I&#39;m dedicated to translating concepts into reusable components using a range of
+technologies like React, TypeScript, Node, Tailwind CSS, HTML, CSS, Git Collaboration, API
+integration, Data Structure, Algorithm, React Query, and SWR. Collaboration and a strong work
+ethic are core to my values.
 
                 </p>
                 <br />

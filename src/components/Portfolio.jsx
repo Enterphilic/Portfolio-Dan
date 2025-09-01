@@ -7,29 +7,30 @@ import reactParallax from "../asset/portfolio/reactParallax.jpg";
 
 const portfolio = () => {
   const portfolios = [
-    {
+  
+     {
       id: 1,
-      src: "https://res.cloudinary.com/dbpcptmco/image/upload/v1729683292/Screenshot_2024-10-23_122649_pdvt0z.png",
-      Demo: "https://www.solomondavidandmichaelltd.com/",
-      Code: "https://github.com/Dc-Valerian/Construction_Project",
+      src: "https://res.cloudinary.com/ddwazfkl9/image/upload/v1756717974/sard_smebgm.png",
+      Demo: "https://www.sardioncare.ca/",
+      Code: "https://github.com/Enterphilic/sadion-cares",
     },
-    {
+     {
       id: 2,
-      src: "https://res.cloudinary.com/dbpcptmco/image/upload/v1729683298/Screenshot_2024-10-23_122733_rqquli.png",
-      Demo: "https://domusmariae.vercel.app/",
-      Code: "https://github.com/Dc-Valerian/domusmariae_Main",
+      src: "https://res.cloudinary.com/ddwazfkl9/image/upload/v1756717974/buddy_jsnc60.png",
+      Demo: "buddy-chat-olive.vercel.app",
+      Code: "https://github.com/Enterphilic/buddy-chat",
     },
     {
       id: 3,
       src: "https://res.cloudinary.com/dbpcptmco/image/upload/v1701521309/Screenshot_2023-12-02_134730_rtgr1g.png",
       Demo: "https://famous-shop.vercel.app/",
-      Code: "https://github.com/Dc-Valerian/Kode10xEcommerce/",
+      // Code: "https://github.com/Dc-Valerian/Kode10xEcommerce/",
     },
     {
       id: 4,
       src: "https://res.cloudinary.com/dbpcptmco/image/upload/v1718022754/Screenshot_2024-06-10_132855_yxgizo.png",
       Demo: "https://sparklecleanersola.com/",
-      Code: "https://github.com/Dc-Valerian/SparkleCleaners",
+      // Code: "https://github.com/Dc-Valerian/SparkleCleaners",
     },
     {
       id: 5,
@@ -39,13 +40,13 @@ const portfolio = () => {
     },
   
     {
-      id: 7,
+      id: 6,
       src: "https://res.cloudinary.com/ddwazfkl9/image/upload/v1740662752/lunimage_rmmfnu.png",
       Demo: "https://www.lunned.com/",
       Code: "https://github.com/Enterphilic/Lunn-ed",
     },
     {
-      id: 8,
+      id: 7,
       src: "https://res.cloudinary.com/ddwazfkl9/image/upload/v1740662752/immaculate_hnoqty.png",
       Demo: "https://www.immaculategoodnews.com/",
       Code: "https://github.com/Enterphilic/emmaculate-loan",
@@ -62,6 +63,19 @@ const portfolio = () => {
       src: "https://res.cloudinary.com/ddwazfkl9/image/upload/v1740663547/download_hkutds.png",
       Demo: "https://real-estate-six-azure.vercel.app/",
       Code: "https://github.com/Enterphilic/real-landing-page-main.gitt",
+    },
+    
+      {
+      id: 10,
+      src: "https://res.cloudinary.com/dbpcptmco/image/upload/v1729683292/Screenshot_2024-10-23_122649_pdvt0z.png",
+      Demo: "https://www.solomondavidandmichaelltd.com/",
+      // Code: "https://github.com/Dc-Valerian/Construction_Project",
+    },
+    {
+      id: 11,
+      src: "https://res.cloudinary.com/dbpcptmco/image/upload/v1729683298/Screenshot_2024-10-23_122733_rqquli.png",
+      Demo: "https://domusmariae.vercel.app/",
+      // Code: "https://github.com/Dc-Valerian/domusmariae_Main",
     },
    
   
